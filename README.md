@@ -11,6 +11,12 @@
 
 Интерфейс программы будет доступен на двух языках: русский и английский.
 
+* Возможности  
+
+Возможности будут описаны полностью для каждой версии. На данный момент стабильной версии - не существует. Однако, возможности у программы следующие:  
+-> просмотр hex кода в окне программы;  
+-> выгрузка hex кода в файл.
+
 * Теги  
 
 Получение hex кода программы, получение hex кода файла, просмотр hex кода, сохранение hex кода в файл, извлечение hex кода, hex код, hex последовательность, последовательность байтов программы, программа в виде hex кода, простой редактор hex кода.
@@ -25,6 +31,12 @@ There are situations when you need to get Hex code of the program or any file. F
 * Interface  
 
 The program interface will be available in two languages: Russian and English.
+
+* Features  
+
+Features will be described fully for each version. At the moment, a stable version does not exist. However, the program has the following capabilities:  
+-> view hex code in the program window;  
+-> extrac hex code to file.
 
 * Tags  
 
