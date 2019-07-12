@@ -26,7 +26,7 @@
 * Description  
 
 This application is necessary as a utility when working with various files.
-There are situations when you need to get Hex code of the program or any file. For "such" cases, you need this program, which allows you to get the Hex code of any file to view it and / or save it in a file.
+There are situations when you need to get Hex code of the program or any file. For "such" cases, you need this program, which allows you to get the Hex code of any file to view it and/or save it in a file.
 
 * Interface  
 
