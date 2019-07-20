@@ -1,0 +1,32 @@
+﻿<Window x:Class="LightHexEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LightHexEditor"
+        mc:Ignorable="d"
+        Title="Light Hex Editor" Height="450" Width="800" Icon="letter-h.png">
+    <Grid>
+        <Button Content="Get Hex code of file" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_GetHex" RenderTransformOrigin="0.472,-0.302" Height="22"/>
+        <Button Content="Open file" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_PathOpen"/>
+        <Label x:Name="LabelPath" Content="File Path:" HorizontalAlignment="Left" Margin="90,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.42,0.18"/>
+        <TextBlock x:Name="TextBlockPathToFile" HorizontalAlignment="Left" Margin="152,12,0,0" TextWrapping="Wrap" Text="FullPathToFile" VerticalAlignment="Top" Width="632"/>
+        <TextBox x:Name="HexCodeViewer" HorizontalAlignment="Left" Height="218" Margin="165,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+        <Label Content="Console:" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="TextBoxConsole" HorizontalAlignment="Left" Height="91" Margin="152,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="623" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+        <Label Content="Hex code:" HorizontalAlignment="Left" Margin="165,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.792,1.367"/>
+        <Button Content="Clean Console" HorizontalAlignment="Left" Margin="10,320,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click_CleanConsole" Height="22"/>
+        <Button Content="Save Code from Window" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_SaveFile" Height="22"/>
+        <TextBox x:Name="TextBoxStatistics" HorizontalAlignment="Left" Height="136" Margin="525,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <Label Content="Statistics:" HorizontalAlignment="Left" Margin="525,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.234,-0.289"/>
+        <Label Content="Status:" HorizontalAlignment="Left" Margin="525,207,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="LoadButton" Content="Load Code in Window" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_LoadHex" Height="22"/>
+        <Button Content="Clear Temp Data" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_DeleteTempData" Height="22" RenderTransformOrigin="0.493,1.191"/>
+        <ProgressBar x:Name="LHEProgressBar" HorizontalAlignment="Left" Height="15" Margin="525,238,0,0" VerticalAlignment="Top" Width="250"/>
+        <Button x:Name="StopOperationButton" Content="Stop Operation" HorizontalAlignment="Left" Margin="608,269,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_StopProcess" Height="22"/>
+        <Button Content="Save Code in File" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="150" Height="22" Click="Button_Click_SaveTempFile"/>
+        <Button Content="Clean Code Window" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click_CleanCodeWindow" Height="22"/>
+        <Button Content="Clean Statistics Window" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click_CleanStatWindow" Height="22"/>
+
+    </Grid>
+</Window>
