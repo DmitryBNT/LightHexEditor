@@ -11,6 +11,10 @@
 
 Интерфейс программы будет доступен на двух языках: русский и английский.
 
+* Установка  
+
+Для того, чтобы пользоваться программой необходимо её скомпилировать, либо перейти на вкладку "Releases" и скачать последнюю стабильную версию. Для корректного функционирования программы необходима динамическая библиотека "lhe_32.dll", которая поставляется вместе с исполняемым файлом .exe (она написана мной для данной программы, поскольку используется C++).  
+
 * Возможности  
 
 Возможности будут описаны полностью для каждой версии. На данный момент стабильной версии - не существует. Однако, возможности у программы следующие:  
@@ -31,6 +35,10 @@ There are situations when you need to get Hex code of the program or any file. F
 * Interface  
 
 The program interface will be available in two languages: Russian and English.
+
+* Installation  
+
+In order to use the program you need to compile it, or go to the "Releases" tab and download the latest stable version. For the program to function correctly, the dynamic library "lhe_32.dll" is required, which comes with the .exe executable file (it was written by me for this program, since C ++ is used).  
 
 * Features  
 
